@@ -59,7 +59,7 @@ margin-top: 3rem;
 
 .main-text h5{
     color:#7a362dff;
-    font-size: 1vw;
+    font-size: 2vw;
     text-transform: capitalize;
     font-weight: bold;
 }
@@ -68,7 +68,7 @@ margin-top: 3rem;
     font-size: 3vw;
     text-transform: capitalize;
     line-height: 1.1;
-    font-weight: bolder;
+    font-weight: bold;
     margin: 6px 0 10px;
 }
 
@@ -387,7 +387,7 @@ font-weight: bold;
     }
     .center-text{
         text-align: center;
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .cart img{
@@ -406,6 +406,7 @@ font-weight: bold;
 
     .cart h4{
         font-size: 4vw;
+        margin-top: 4px;
     }
     .cart h6{
         font-size: 3vh;
@@ -425,8 +426,9 @@ font-weight: bold;
       }
     
       .contact-info {
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(120px, 3fr));
         gap: 2rem;
+        margin-left: 24px;
       }
     
       .contact-info h4 {
@@ -441,6 +443,22 @@ font-weight: bold;
       .social-icons i {
         font-size: 20px;
       }
+
+      .img-product:hover{
+        transform: none;
+    }
+
+    .main-text h5{
+        font-size: 3vh;
+    }
+
+    .main-text h1{
+        font-size: 5vw;
+    }
+
+    .main-but{
+        margin-top: 10px;
+    }
         }
     
 
